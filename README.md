@@ -1,5 +1,5 @@
 # Github-Contribution
-Auto generating Github contributions everyday using Github Actions.
+Auto generating Github contributions everyday using Github Actions. 
 
 # How to use
 1. :arrow_down: Create a repository from this template. ([Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template))
