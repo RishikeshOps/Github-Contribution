@@ -17,6 +17,6 @@ jobs:
       - name: Run commit script
         run: |
            git config --global user.name ${GITHUB_ACTOR}
-           git config --global user.email ${{ secrets.USER_EMAIL }}
+           git config --global user.email ${{ secrets.USER_EMAIl }}
            git commit --allow-empty -m "Streak grass: `date +'%Y-%m-%d %H:%M:%S'`" 
            git push origin main
