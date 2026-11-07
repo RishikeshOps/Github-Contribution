@@ -1,10 +1,36 @@
-# Github-Contribution
-Auto generating Github contributions everyday using Github Actions. 
+# ✅ GitHub Contribution Automator
 
-# How to use
-1. :arrow_down: Create a repository from this template. ([Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template))
-2. :lock: Add your Github email address in Github Secrets as USER_EMAIL. ([Docs](https://docs.github.com/en/free-pro-team@latest/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository))
-3. :smile: Done!
+Automatically generate **daily GitHub contributions** using GitHub Actions — no manual commits needed!
 
-# How it works
-It runs once a day around 12:00 (GMT), UTC +0. And it makes an empty commit to add contribution to your Github profile.
+---
+
+## 🚀 What this does
+This workflow runs **once every day around 12:00 UTC (GMT +0)** and pushes an empty commit.  
+✔ Keeps your contribution graph active  
+✔ No need to open GitHub daily  
+✔ Fully automated
+
+---
+
+## 📌 How to Use
+
+1. **Create a new repository** using this template  
+   🔗 [How to create from template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
+
+2. **Add your GitHub email** in repository secrets  
+   - Go to: `Settings → Secrets and variables → Actions → New repository secret`
+   - Create a secret named **`USER_EMAIL`**
+   🔗 [How to add secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets#creating-encrypted-secrets-for-a-repository)
+
+3. ✅ Done! The workflow will start running automatically.
+
+---
+
+## 🛠 How it Works
+- A scheduled GitHub Action triggers once per day
+- It creates an empty commit (`--allow-empty`)
+- That commit counts as a daily contribution on your profile
+
+---
+
+## 📄 Example Commit Message
